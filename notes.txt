@@ -1,0 +1,39 @@
+			Shopping bill system
+
+Key:
+----	Needed to finish before everyone can start making files
+---	Needed by end
+--	Decide before conceptualizing implementation
+-	Can be avoided
+
+
+-----Main menu
+	--- Welcome to ...
+	---- New bill	(Enter customer name and phone number)
+		---OK
+			---Item name
+				-Include utility to search through
+			---Item code
+				---Define prices for each code in a separate file to increase ease of change
+					(create a config file for storing this price for each item)
+			---Item quantity
+				-Include utility (ie passable graphics) to increase or decrease instead of typing in a quantity
+			-Pages (if multiple)
+			---Go to current bill
+				---Print bill onto the gui (ie on a separate window)
+				--Decide on how the bill's interface needs to look like clearly
+					-
+				-Option to either print the above bill onto the terminal or to write it onto a separate file
+				---Go back to make changes
+		---Go back to previous menu
+			
+	--- Exit
+
+Split into 4:
+	1-- gui for main menu (create provision for storing name nd number in a separate file)
+		++ config file for items + utility to search for items (optional but try doing it as the other parts are very simple) 
+	2--- ui used to create the bill
+	3--- gui for the bill
+	4-- printing of the bill 
+
+	
